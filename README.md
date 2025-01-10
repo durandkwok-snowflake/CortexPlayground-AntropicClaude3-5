@@ -50,3 +50,14 @@ select * from transcript_table;
 ![image](https://github.com/user-attachments/assets/51db71f8-7759-4b5f-bfa6-fd824bcac575)
 
 
+```sql
+SELECT
+  SNOWFLAKE.CORTEX.COMPLETE(
+    'claude-3-5-sonnet',
+    [{ 'role': 'system', 'content': 'Be careful of halucination. Only answer if you are sure. Can you give me a sentiment analysis of this earnings call?' }, { 'role': 'user', 'content': CALL_TEXT }],
+    { }
+  ) as TEXT_COMPLETION,
+  CALL_TEXT as TEXT_INPUT
+FROM
+  "TRANSCRIPT_ANALYSIS"."PUBLIC"."TRANSCRIPT_TABLE";
+```
