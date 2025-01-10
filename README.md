@@ -4,7 +4,7 @@ create or replace stage docs ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = (
 
 ls @docs;
 
--- Upload files to internal stage
+-- Upload earnings call pdf files to internal stage
 
 create OR replace table transcript_table (call_text TEXT, category VARCHAR(16777216) );
 
