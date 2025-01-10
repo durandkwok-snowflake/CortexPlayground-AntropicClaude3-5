@@ -1,5 +1,10 @@
 # CortexPlayground-AntropicClaude3-5
 ```sql
+create or replace database transcript_analysis;
+
+use database transcript_analysis;
+use schema public;
+
 create or replace stage docs ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = ( ENABLE = true );
 
 ls @docs;
