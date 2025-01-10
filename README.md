@@ -51,7 +51,7 @@ select * from transcript_table;
 
 
 ```sql
--- You can also do the following in a SQL worksheet and call complete to run Anthropic Claude.
+-- You can also run the following in a SQL worksheet and call complete to run Anthropic Claude.
 SELECT
   SNOWFLAKE.CORTEX.COMPLETE(
     'claude-3-5-sonnet',
