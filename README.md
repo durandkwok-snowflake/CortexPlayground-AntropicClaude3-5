@@ -27,3 +27,4 @@ SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
 select * from transcript_table;
 
 ```
+![image](https://github.com/user-attachments/assets/634cab37-878d-4c3c-87ef-6c1d3bf0e5c9)
