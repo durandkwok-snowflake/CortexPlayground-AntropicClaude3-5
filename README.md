@@ -7,9 +7,9 @@ use schema public;
 
 create or replace stage docs ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = ( ENABLE = true );
 
-ls @docs;
-
 -- Upload earnings call pdf files to internal stage
+
+ls @docs;
 
 create OR replace table transcript_table (call_text TEXT, category VARCHAR(16777216) );
 
