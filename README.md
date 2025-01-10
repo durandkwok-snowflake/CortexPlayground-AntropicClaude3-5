@@ -45,5 +45,6 @@ select * from transcript_table;
 
 ![image](https://github.com/user-attachments/assets/135dff2b-fa0e-42e1-abe1-46ac0b5aecf0)
 
+![image](https://github.com/user-attachments/assets/fbcace80-0142-4802-8a01-d57a8ed57ef7)
 
 
